@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Da largura Maxima e Minima a todos os elementos*/
+.limita-largura {
+    width: 100%;
+    min-width: 320px;
+    max-width: 1024px;
+    margin: 0 auto;
+    
+}
+
+/*Defini dimensões topo e rodapé*/
+.rodape {
+    width: 100%;
+    padding: 16px 0;
+    text-align: center;
+    background: #ff8014;
+    color: #fff;
+    font-size: 20px;
+}
+.topo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 16px 0;
+    text-align: center;
+    background: #ff8014;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 0 0 10px 10px;
+  
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.apresentacao {
+    width: calc(100% - 70px);
+    overflow-y: scroll;
+    height: 315px;
+}
+
+.galeria{
+    width: calc(100% - 70px);
+    
+}
+
+.area {
+    margin: 20px 35px;
+}
+
+.apresentacao img, .area p, .area-tres-imagens{
+    width: 100%;
+    margin: 15px 0;
+}
+
+.area-tres-imagens {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.galeria img {
+    width: calc((100% / 3) - 3px);
+    margin: 0 2.5px;
+}
+
+.redes-sociais {
+  height: 150px;
+}
+
+.redes-sociais h2 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.navLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid 2px black;
+    border-radius: 10px 10px 0 0 ;
+    padding: 10px;
+
+
+
+    
+}
+.links, a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ff8014;
+
+}
+i{
+    color: darkred;
+    margin-right: 10px;
+}
+.imgDino:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+
+
+}
+
+
+
+
+
+    
+
